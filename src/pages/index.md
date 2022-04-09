@@ -2,7 +2,7 @@
 layout: '../layouts/Page.astro'
 
 seo:
-  title: 'Home'
+  title: 'Home | Mind Manifesting Counseling'
   description: 'Mind Manifesting Counseling offerrs in-home couseling services for those seeking mental health care.'
 ---
 
