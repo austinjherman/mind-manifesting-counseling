@@ -18,4 +18,4 @@ I specialize in working with adults experiencing addiction and substance use rel
 
 I often tell clients finding a therapist is like shopping for new clothes. You rarely buy the first pair of pants you try on. I want you to feel comfortable in the therapeutic process. I am open to having a conversation prior to intake to see if I will be a good fit. 
 
-I provide the unique service of offering therapy in your home. I only provide in-home therapy. 
+I provide the unique service of offering therapy in your home.
