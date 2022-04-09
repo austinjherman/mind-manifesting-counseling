@@ -1,0 +1,14 @@
+@use './reset';
+@use './grid';
+@use './display';
+
+// Colors and space contain variables that we can use in 
+// other parts of the app. So, they both have a mixin called
+// export which actually renders out the styles. This way
+// we can import the vars throughout the app without importing
+// the styles too.
+@use './colors';
+@use './space';
+
+@include colors.export();
+@include space.export();

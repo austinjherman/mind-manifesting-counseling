@@ -1,0 +1,40 @@
+@use "./variables";
+
+$columns: 12;
+$gap: 25px;
+
+@mixin create-selectors($breakpoint: null) {
+  $infix: if($breakpoint == null, '', '-#{$breakpoint}');
+
+  @for $i from 1 through $columns {
+    .col#{$infix}-#{$i} {
+      grid-column-end: span $i;
+    }
+    .col#{$infix}-start-#{$i} {
+      grid-column-start: $i;
+    }
+  }
+}
+
+.container {
+  padding: 0 1rem;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat($columns, 1fr);
+  gap: 0 $gap;
+}
+
+.grid-fit-columns {
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+@include create-selectors;
+@each $breakpoint, $width in variables.$breakpoints {
+  @media (min-width: $width) {
+    @include create-selectors($breakpoint);
+  }
+}

@@ -1,0 +1,76 @@
+@use 'variables';
+
+$space: (
+  0: 0,  
+  1: 0.25rem,
+  2: 0.5rem,
+  3: 0.75rem,
+  4: 1rem,
+  5: 1.5rem,
+  6: 2rem,
+  7: 3rem,
+  8: 4rem,
+  9: 6rem,
+  10: 8rem,
+  11: 12rem,
+  12: 16rem,
+  13: 24rem,
+  14: 32rem,
+  15: 40rem,
+  16: 48rem,
+);
+
+@function get($key) {
+  @return map-get($space, $key);
+}
+
+@mixin export() {
+  @each $k, $v in $space {
+    .m-#{$k} {
+      margin: #{$v} !important;
+    }
+    .p-#{$k} {
+      padding: #{$v} !important;
+    }
+    .mb-#{$k} {
+      margin-bottom: #{$v} !important;
+    }
+    .mt-#{$k} {
+      margin-top: #{$v} !important;
+    }
+    .mr-#{$k} {
+      margin-right: #{$v} !important;
+    }
+    .ml-#{$k} {
+      margin-left: #{$v} !important;
+    }
+    .my-#{$k} {
+      margin-bottom: #{$v} !important;
+      margin-top: #{$v} !important;
+    }
+    .mx-#{$k} {
+      margin-right: #{$v} !important;
+      margin-left: #{$v} !important;
+    }
+    .pb-#{$k} {
+      padding-bottom: #{$v} !important;
+    }
+    .pt-#{$k} {
+      padding-top: #{$v} !important;
+    }
+    .pr-#{$k} {
+      padding-right: #{$v} !important;
+    }
+    .pl-#{$k} {
+      padding-left: #{$v} !important;
+    }
+    .py-#{$k} {
+      padding-bottom: #{$v} !important;
+      padding-top: #{$v} !important;
+    }
+    .px-#{$k} {
+      padding-right: #{$v} !important;
+      padding-left: #{$v} !important;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+---
+export interface Props {
+  caption: string
+  quote: string
+}
+
+const { caption, quote } = Astro.props as Props
+---
+
+<figure class="ml-2 pl-2 blockquote mb-6">
+  <blockquote class="m-0 quote">{quote}</blockquote>
+  <figcaption class="caption">{caption}</figcaption>
+</figure>
+
+<style lang="scss"> 
+ @use '../style/colors';
+  .blockquote {
+    border-left: 0.5rem solid colors.get('blue-300');
+    border-radius: 2px;
+  }
+  .quote {
+    font-weight: 500;
+  }
+  .caption {
+    font-size: 0.8rem;
+  }
+</style>

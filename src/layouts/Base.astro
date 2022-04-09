@@ -1,0 +1,35 @@
+---
+export interface Props {
+  seo: {
+    title: string
+    description: string
+  }
+}
+const { seo } = Astro.props as Props
+---
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <title>{seo.title}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <meta name="description" content={seo.description}>
+    <meta name="og:title" content={seo.title}>
+    <meta name="og:description" content={seo.description}>
+    <meta name="og:image" content="/images/social-default.jpg">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300,500&family=Karla:wght@400;700&display=swap" rel="stylesheet">
+
+    <style is:global lang="scss">
+      @use '../style/framework.scss';
+      @use '../style/global.scss';
+    </style>
+
+  </head>
+  <body>
+    <!-- slot: your page content will be injected here. -->
+    <slot />
+  </body>
+</html>

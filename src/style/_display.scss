@@ -1,0 +1,25 @@
+@use './variables';
+
+$variations: (
+  "none",
+  "block",
+  "grid",
+  "inline-block",
+  "flex",
+);
+
+@each $v in $variations {
+  .d-#{$v} {
+    display: #{$v} !important;
+  }
+}
+
+@each $v in $variations {
+  @each $bp, $w in variables.$breakpoints {
+    @media (min-width: $w) {
+      .d-#{$bp}-#{$v} {
+        display: #{$v} !important;
+      }
+    }
+  }
+}

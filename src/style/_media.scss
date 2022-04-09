@@ -1,0 +1,7 @@
+@use './variables';
+
+@mixin above($breakpointKey) {
+  @media (min-width: map-get(variables.$breakpoints, $breakpointKey)) {
+    @content
+  }
+}

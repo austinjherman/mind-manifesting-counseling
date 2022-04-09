@@ -1,0 +1,37 @@
+---
+import companyData from '../data/company.json'
+import { stripPhoneNumber } from '../util/format'
+import Logo from './Logo.astro'
+import PhoneIcon from './IconPhone.astro'
+---
+
+<div class="sidebar--left py-5 px-4">
+  <div class="d-flex logo-and-phone">
+    <Logo class="logo" />
+    <div class="d-md-none">
+      <a href={`tel:${stripPhoneNumber(companyData.phoneNumber)}`}>
+        <span class="d-none">Call: {companyData.phoneNumber}</span>
+        <PhoneIcon />
+      </a>
+    </div>
+  </div>
+</div>
+
+<style lang="scss">
+  @use '../style/media';
+  @use '../style/space';
+  .sidebar--left {
+    @include media.above('lg') {
+      min-height: 100vh;
+    }
+  }
+  .logo-and-phone {
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo {
+    @include media.above('lg') {
+      margin: space.get(9) space.get(4) space.get(4) space.get(4);
+    }
+  }
+</style>

@@ -1,0 +1,72 @@
+@use './colors';
+@use './media';
+@use './space';
+
+body {
+  background-color: colors.get('white');
+  color: colors.get('blue-100');
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  color: colors.get('blue-100');
+  font-family: 'Karla', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 0.9;
+  margin-bottom: 1.25rem;
+}
+
+h1, .h1 {
+  font-size: 4rem;
+  margin-bottom: 2.5rem;
+  margin-top: 0;
+
+  @include media.above('md') {
+    font-size: 5rem;
+  }
+}
+
+h2, .h2 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: 3rem;
+}
+
+h3, .h3 {
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+
+li {
+  line-height: 1.25;
+  margin-bottom: space.get(1);
+}
+
+.btn {
+  font-family: 'Karla', sans-serif;
+}
+
+.markdown-content {
+  font-size: 1.1rem;
+}
+
+.markdown-content p {
+  clear: both;
+  display: table;
+}
+
+.markdown-content img {
+  border-radius: 4px;
+  float: left;
+  margin-bottom: space.get(2);
+  margin-right: space.get(2);
+}

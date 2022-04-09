@@ -1,0 +1,74 @@
+---
+import companyData from '../data/company.json'
+import { stripPhoneNumber } from '../util/format'
+
+import BaseLayout from './Base.astro'
+import Bar from '../components/Bar.astro'
+
+const { content } = Astro.props
+---
+
+<BaseLayout seo={content.seo}>
+  <div class="layout--page">
+    <div class="section--bar bg-blue-100">
+      <Bar />
+    </div>
+    <div class="section--body pb-9 pt-5">
+      <div class="container grid">
+        <div class="col-12 col-lg-10 col-lg-start-2">
+          <div class="markdown-content">
+            <slot />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section--info py-5 px-4 bg-orange-300">
+      <div class="container">
+        <h2 class="mt-0 color-orange-100">Company Info</h2>
+          <ul>
+            <li><a href="/about">About Us</a></li>
+          </ul>
+        <h3>Counselors</h3>
+        <ul>
+          <li><a href="/about#dharti-atchison">Dharti Atchison</a></li>
+          <li><a href="/about#travis-atchison">Travis Atchison</a></li>
+        </ul>
+        <h3>Phone Number</h3>
+        <p class="mt-0"><a href={`tel:${stripPhoneNumber(companyData.phoneNumber)}`}>{companyData.phoneNumber}</a></p>
+        <h3>Form Downloads</h3>
+        <ul>
+          <li><a href="/downloads/hipaa.docx">HIPAA</a></li>
+          <li><a href="/downloads/consent-policies-and-agreement.docx">Therapy consent, policies, and agreement</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</BaseLayout>
+
+<style lang="scss">
+  @use '../style/colors';
+  @use '../style/media';
+  @use '../style/space';
+  .layout--page {
+    @include media.above('md') {
+      display: flex;
+    }
+  }
+  .section--info {
+    border-left: 1px solid colors.get('orange-100');
+
+    h2, h3, a {
+      color: colors.get('orange-100');
+    }
+
+    a {
+      padding: 0.25rem 0.5rem 0.25rem 0.15rem;
+      text-decoration: none;
+      transition: all 0.1s ease-in-out;
+      &:hover, &:focus {
+        background-color: colors.get('orange-100');
+        color: colors.get('orange-300');
+      }
+    }
+  }
+</style>
