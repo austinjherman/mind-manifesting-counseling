@@ -8,14 +8,16 @@ seo:
 
 # Mind Manifesting Counseling
 
-Hello! My name is Travis Atchison of Mind Manifesting Counseling. I am a Licensed Clinical Social Worker (LCSW) and I am also a Master Level Certified Addiction Professional (MCAP). 
+We appreciate you taking a moment out to read this.  We wanted to thank-you for choosing us to provide for your counseling needs and goals. We appreciate and acknowledge the courage it takes to want to make a change, and we are delighted, honored, and privileged to be working with you through your journey.   
 
-You are your own expert. My role is to offer you guidance and support in exploring barriers and the difficulties of life. I will never tell you what to do. I view the therapist and client relationship as a collaboration. I operate on a strengths-based foundation which means I will work with you to identify your unique strengths rather than your deficits to improve your well-being. 
+We see our clients as resilient, motivated, strengths-based, and self-determined! 
 
-I work with children of all ages and adults. I utilize tools and techniques including Cognitive Behavioral Therapy, Solution Focused Therapy, trauma informed care, and person-centered approaches. I believe the therapeutic process is a holistic process. Therapy will assist you in challenging negative thoughts and beliefs that may undermine your quality of life. Sometimes we need to see beyond the frames of our everyday snapshot. 
+Our skills and expertise can support you through various issues related to stress, anxiety, depression, trauma, abuse, addiction, and self-esteem. We are also experienced in support relationship issues, family conflict, grief, parenting, anger management, and coping with life changes and challenges. 
 
-I specialize in working with adults experiencing addiction and substance use related issues. 
+We employ eclectic approaches to supporting your individual needs such as Cognitive Behavioral Therapy (CBT), Dialectical Behavior Therapy (DBT), Mindfulness Therapy, Motivational Interviewing, Narrative Therapy, and an overall Client-Centered therapeutic approach. 
 
-I often tell clients finding a therapist is like shopping for new clothes. You rarely buy the first pair of pants you try on. I want you to feel comfortable in the therapeutic process. I am open to having a conversation prior to intake to see if I will be a good fit. 
+We very much welcome and appreciate new clients into our practice, so we can also help them achieve the goals that matter to them most. We look forward to getting started with you at your first appointment. Should you have any questions prior to our appointment please feel free to give us a call. 
+ 
+Thank-you,
 
-I provide the unique service of offering therapy in your home.
+Travis Atchison LCSW, MCAP & Dharti Atchison LCSW
