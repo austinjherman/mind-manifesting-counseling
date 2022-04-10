@@ -33,8 +33,11 @@ const { content } = Astro.props
           <li><a href="/about#dharti-atchison">Dharti Atchison</a></li>
           <li><a href="/about#travis-atchison">Travis Atchison</a></li>
         </ul>
-        <h3>Phone Number</h3>
-        <p class="mt-0"><a href={`tel:${stripPhoneNumber(companyData.phoneNumber)}`}>{companyData.phoneNumber}</a></p>
+        <h3>Contact</h3>
+        <ul>
+          <li><a href={`tel:${stripPhoneNumber(companyData.phoneNumber)}`}>{companyData.phoneNumber}</a></li>
+          <li><a href={`mailto:${companyData.email}`}>{companyData.email}</a></li>
+        </ul>
         <h3>Form Downloads</h3>
         <ul>
           <li><a href="/downloads/hipaa.docx">HIPAA</a></li>

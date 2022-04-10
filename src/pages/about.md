@@ -13,9 +13,13 @@ seo:
 # About Us
 
 ## Dharti Atchison
+LCSW #SW17939 (Expires: 2023-03-31)
+
 ![Dharti Atchison](/images/dharti-atchison.jpg "Dharti Atchison") Hello! I am Dharti Atchison! I was raised in Galveston, Texas and graduated with my bachelor's degree in Child Development and Education in 2013. I obtained my master's degree in Social Work in 2016 from Stephen F. Austin State University. I moved to Pinellas County in 2016 where I began working as a counselor supporting individuals with complex mental health concerns and homelessness. I have worked in various social work disciplines such as medical social work and mental health and substance use. Currently, I work as a director of transitional services for a local skilled nursing facility. I work to connect families and their loved ones to the highest quality of care.
 
 ## Travis Atchison
+LCSW #SW17989 (Expires: 2023-03-31)
+
 ![Travis Atchison](/images/travis-atchison.jpg "Travis Atchison") My name is Travis Atchison. I was raised in East Texas and graduated from Southern Arkansas University in 2013 with a bachelor's degree in Psychology and a bachelor's degree in Criminal Justice. I obtained my master's degree in Social Work in 2016 from Stephen F. Austin State University. I moved to Pinellas County in 2016 where I began working as a family counselor. Since then, I have worked as a substance abuse counselor, engaged in supervisory roles in addiction services, and acted as program director for the now standing Community Assistance and Life Liaison program in St. Petersburg, FL where my team responded to live 911 crisis calls autonomous from law enforcement. Currently, I am the clinical director for a local medical detoxification treatment center. I am also working on completing my doctoral degree in psychology with specialization in addictions with Northcentral University. 
 
 ## About Us
