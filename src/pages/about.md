@@ -41,8 +41,8 @@ We have been married for almost six years and have experienced the greatest joys
 
 ## Reviews (Travis)
 <Quote
-  quote="Written by C.A. on Mar 15, 2022, after therapy with Travis for issues concerning stress, anxiety, depression, and relationship issues."
-  caption="Travis helped me out through one of the hardest times I've had in a long time, if not ever. He is considerate, laid back, thoughtful, honest, and most of all kind. He gets it. I would recommend Travis to anyone who needs a new perspective on life issues, or some new ideas and techniques to get through everyday problems. Good guy, smart, and easy to warm up to, and be honest with." />
+  quote="Travis helped me out through one of the hardest times I've had in a long time, if not ever. He is considerate, laid back, thoughtful, honest, and most of all kind. He gets it. I would recommend Travis to anyone who needs a new perspective on life issues, or some new ideas and techniques to get through everyday problems. Good guy, smart, and easy to warm up to, and be honest with."
+  caption="Written by C.A. on Mar 15, 2022, after therapy with Travis for issues concerning stress, anxiety, depression, and relationship issues." />
 
 <Quote
   quote="Travis has been great to work with so far."
