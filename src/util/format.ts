@@ -1,3 +1,3 @@
 export function stripPhoneNumber(phoneNumber: string): string {
-  return phoneNumber.replace(/\-|\(|\)/, '')
+  return phoneNumber.replace('(', '').replace(')', '').replace(' ', '').replace('-', ' ')
 }
